@@ -9,12 +9,12 @@ const defaultSettings = {
 const embedSettings = {
   color: Colors.Blurple,
   wrongcolor: Colors.Red,
-  footertext: "By Kabir Jaipal | Fire Bird",
+  footertext: "By Voxm .",
 };
 
 const emojiSettings = {
-  ERROR: "<a:wrong:1158264214960488468>",
-  SUCCESS: "<a:check:1158261895111913554>",
+  ERROR: "❌",
+  SUCCESS: "✅",
   disabled: "🔴",
   enabled: "🟢",
   cleared: "🧹",
@@ -83,9 +83,9 @@ const filters = {
 };
 
 const links = {
-  inviteURL: `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=6508997968&scope=bot%20applications.commands`,
-  DiscordServer: `https://discord.gg/FuKfAREn9f`,
-  VoteURL: `https://discord.gg/FuKfAREn9f`,
+  inviteURL: `https://discord.com/oauth2/authorize?client_id=1223307336697905265&permissions=8&scope=bot+applications.commands`,
+  DiscordServer: `https://discord.gg/ByQTyDzfEz`,
+  VoteURL: `https://discord.gg/ByQTyDzfEz`,
   Website: `https://jugnu.netlify.app/`,
 };
 
@@ -111,8 +111,8 @@ const numberEmojis = [
 ];
 
 const slashSettings = {
-  global: false,
-  guildIDS: ["1108474287389675591"], // for slash command
+  global: true,
+  guildIDS: ["1217503519922192474"], // for slash command
 };
 
 module.exports = {
